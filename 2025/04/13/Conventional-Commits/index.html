@@ -405,23 +405,23 @@
   
   <nav id="article-nav" data-aos="fade-up">
     
-    
-    
-    <div class="article-nav-link-wrap article-nav-link-right">
       
+      <div class="article-nav-link-wrap article-nav-link-left">
         
+          
+          
+            <img data-src="/images/banner.webp" data-sizes="auto" alt="记录这一段时间了解的node.js工具,做一个总结" class="lazyload">
+          
         
-          <img data-src="/images/banner.webp" data-sizes="auto" alt="记录这一段时间了解的node.js工具,做一个总结" class="lazyload">
-        
-      
-      <a href="/2025/04/09/NodejsTool-Tutorial/"></a>
-      <div class="article-nav-caption">后一篇</div>
-      <h3 class="article-nav-title">
-        
-          记录这一段时间了解的node.js工具,做一个总结
-        
-      </h3>
-    </div>
+        <a href="/2025/04/26/NodejsTool-Tutorial/"></a>
+        <div class="article-nav-caption">前一篇</div>
+        <h3 class="article-nav-title">
+          
+            记录这一段时间了解的node.js工具,做一个总结
+          
+        </h3>
+      </div>
+    
     
   </nav>
 
@@ -1099,7 +1099,7 @@
     
     // 3. 如果localStorage无效，检查配置的默认评论系统
     if (!defaultComment) {
-      var configDefault = 'waline';
+      var configDefault = 'twikoo';
       if (commentConfig[configDefault]?.enable) {
         defaultComment = configDefault;
       }
