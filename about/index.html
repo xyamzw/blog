@@ -61,6 +61,12 @@
   <link rel="preload" href="https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   
   
+    
+      
+<link rel="stylesheet" href="https://npm.webcache.cn/@waline/client@2.15.8/dist/waline.css">
+
+    
+  
   
   
     
@@ -335,7 +341,7 @@
 <li>一名二次元重度患者，真寻厨和希儿厨</li>
 <li>喜欢玩各种二游，偶尔也会看点番</li>
 <li>会点前端，后端稍微也会一点</li>
-<li>邮箱: <a href="mailto:&#120;&#121;&#x61;&#109;&#122;&#119;&#x32;&#51;&#x35;&#x36;&#64;&#x67;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">xyamzw2356@gmail.com</a></li>
+<li>邮箱: <a href="mailto:&#120;&#x79;&#97;&#x6d;&#122;&#119;&#x32;&#51;&#x35;&#54;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;">xyamzw2356@gmail.com</a></li>
 <li>图库均来源网络，侵删</li>
 </ul>
 <h3 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h3>
@@ -371,27 +377,18 @@
       
       
       
-      
         <a data-aos="zoom-in" href="/about/index.html#comments" class="article-comment-link">
-          <span class="post-comments-count twikoo-comment-count" data-path="/about/index.html" itemprop="commentCount"></span>
+          <span class="post-comments-count waline-comment-count" data-path="/about/index.html" itemprop="commentCount"></span>
           留言
         </a>
-        <script>
-          twikoo.getCommentsCount({
-            envId: 'https://twikoo-comment.vercel.app',
-            region: '',
-            urls: [
-              '/about/index.html'
-            ],
-            includeReply: false
-          }).then((res) => {
-            _$('.twikoo-comment-count').innerText = res[0].count;
-          }).catch((err) => {
-            console.error(err);
-          });
-        </script>
       
       
+      
+      
+        <span data-aos="zoom-in" class="article-visitor-link">
+          <span class="waline-pageview-count" data-path="/about/">0</span>
+          <em class="post-meta-item-text">阅读量</em>
+        </span>
       
       
 
@@ -417,8 +414,8 @@
       <div class="comment-selector">
         <div class="comment-selector-wrap">
             
-            <div class="selector-item" data-selector="twikoo">
-              <span>twikoo</span>
+            <div class="selector-item" data-selector="waline">
+              <span>waline</span>
             </div>
             
         </div>
@@ -426,8 +423,8 @@
     </div>
     <div class="comment-content">
       
-        <div class="comment twikoo-comment" data-aos="fade-up"
-          id="twikoo-comment">
+        <div class="comment waline-comment" data-aos="fade-up"
+          id="waline-comment">
         </div>
       
     </div>
@@ -903,7 +900,7 @@
       }
     },
     waline: {
-      enable: false,
+      enable: true,
       load: async () => {
         const container = document.querySelector('.waline-comment');
         if (!container) return;
@@ -918,7 +915,7 @@
 
         window.walineInstance = walineInit({
           el: '.waline-comment',
-          serverURL: '',
+          serverURL: 'https://waline-commet.vercel.app/',
           lang: 'zh-CN',
           locale: {},
           emoji: ["https://unpkg.com/@waline/emojis@1.2.0/weibo","https://unpkg.com/@waline/emojis@1.2.0/alus","https://unpkg.com/@waline/emojis@1.2.0/bilibili","https://unpkg.com/@waline/emojis@1.2.0/qq","https://unpkg.com/@waline/emojis@1.2.0/tieba","https://unpkg.com/@waline/emojis@1.2.0/tw-emoji"],
@@ -934,7 +931,7 @@
     },
      
     twikoo: {
-      enable: true,
+      enable: false,
       load: () => {
         const container = document.querySelector('.twikoo-comment');
         if (!container) return;
@@ -1057,7 +1054,7 @@
     
     // 3. 如果localStorage无效，检查配置的默认评论系统
     if (!defaultComment) {
-      var configDefault = 'twikoo';
+      var configDefault = 'waline';
       if (commentConfig[configDefault]?.enable) {
         defaultComment = configDefault;
       }
