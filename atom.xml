@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>未觉寻星&#39;s blog</title>
-  <icon>https://xyamzw.2937150394.workers.dev/icon.png</icon>
+  <icon>https://xyamzw.top/icon.png</icon>
   <subtitle>二次元拯救世界</subtitle>
-  <link href="https://xyamzw.2937150394.workers.dev/atom.xml" rel="self"/>
+  <link href="https://xyamzw.top/atom.xml" rel="self"/>
   
-  <link href="https://xyamzw.2937150394.workers.dev/"/>
+  <link href="https://xyamzw.top/"/>
   <updated>2025-04-26T06:36:08.435Z</updated>
-  <id>https://xyamzw.2937150394.workers.dev/</id>
+  <id>https://xyamzw.top/</id>
   
   <author>
     <name>未觉寻星</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>记录这一段时间了解的node.js工具,做一个总结</title>
-    <link href="https://xyamzw.2937150394.workers.dev/2025/04/26/NodejsTool-Tutorial/"/>
-    <id>https://xyamzw.2937150394.workers.dev/2025/04/26/NodejsTool-Tutorial/</id>
+    <link href="https://xyamzw.top/2025/04/26/NodejsTool-Tutorial/"/>
+    <id>https://xyamzw.top/2025/04/26/NodejsTool-Tutorial/</id>
     <published>2025-04-26T06:36:08.435Z</published>
     <updated>2025-04-26T06:36:08.435Z</updated>
     
@@ -42,17 +42,17 @@
     
     
     
-    <category term="前端开发" scheme="https://xyamzw.2937150394.workers.dev/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="前端开发" scheme="https://xyamzw.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="node.js" scheme="https://xyamzw.2937150394.workers.dev/tags/node-js/"/>
+    <category term="node.js" scheme="https://xyamzw.top/tags/node-js/"/>
     
   </entry>
   
   <entry>
     <title>约定式提交三部曲</title>
-    <link href="https://xyamzw.2937150394.workers.dev/2025/04/13/Conventional-Commits/"/>
-    <id>https://xyamzw.2937150394.workers.dev/2025/04/13/Conventional-Commits/</id>
+    <link href="https://xyamzw.top/2025/04/13/Conventional-Commits/"/>
+    <id>https://xyamzw.top/2025/04/13/Conventional-Commits/</id>
     <published>2025-04-12T18:02:35.000Z</published>
     <updated>2025-04-26T06:36:08.434Z</updated>
     
@@ -69,7 +69,7 @@
     
     
     
-    <category term="前端开发" scheme="https://xyamzw.2937150394.workers.dev/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="前端开发" scheme="https://xyamzw.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>

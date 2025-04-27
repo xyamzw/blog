@@ -14,7 +14,7 @@
 
   
 
-  <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_0khxww3tj3q9';window.REIMU_CONFIG.clipboard_tips = {"success":"复制成功(*^▽^*)","fail":"复制失败 (ﾟ⊿ﾟ)ﾂ","copyright":{"enable":false,"count":50,"content":"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！"}};window.REIMU_CONFIG.code_block = {"expand":true};window.REIMU_CONFIG.base = 'https://xyamzw.2937150394.workers.dev';</script>
+  <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_0khxww3tj3q9';window.REIMU_CONFIG.clipboard_tips = {"success":"复制成功(*^▽^*)","fail":"复制失败 (ﾟ⊿ﾟ)ﾂ","copyright":{"enable":false,"count":50,"content":"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！"}};window.REIMU_CONFIG.code_block = {"expand":true};window.REIMU_CONFIG.base = 'https://xyamzw.top';</script>
   
   <title>
     记录这一段时间了解的node.js工具,做一个总结 |
@@ -38,39 +38,39 @@
     <meta name="description" content="Ciallo～(∠・ω &lt; )⌒★众所周知,Node.js 是一个开源的、跨平台的 JavaScript 运行时环境,简单来讲就是一个js运行环境，一个软件，本文将对node.js工具进行相关介绍与使用,帮助你更好的使用node.js 工具概述: nrm nvm volta  工具的安装与使用nrm介绍：nrm 的全称是 npm registry manager ，是一个 npm 的镜像源管">
 <meta property="og:type" content="article">
 <meta property="og:title" content="记录这一段时间了解的node.js工具,做一个总结">
-<meta property="og:url" content="https://xyamzw.2937150394.workers.dev/2025/04/26/NodejsTool-Tutorial/index.html">
+<meta property="og:url" content="https://xyamzw.top/2025/04/26/NodejsTool-Tutorial/index.html">
 <meta property="og:site_name" content="未觉寻星&#39;s blog">
 <meta property="og:description" content="Ciallo～(∠・ω &lt; )⌒★众所周知,Node.js 是一个开源的、跨平台的 JavaScript 运行时环境,简单来讲就是一个js运行环境，一个软件，本文将对node.js工具进行相关介绍与使用,帮助你更好的使用node.js 工具概述: nrm nvm volta  工具的安装与使用nrm介绍：nrm 的全称是 npm registry manager ，是一个 npm 的镜像源管">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm17.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm2.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm3.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm4.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm5.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm6.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm7.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm8.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm9.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm11.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm12.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm13.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm14.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm15.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/nvm16.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/volta.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/volta2.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/volta3.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/volta4.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/volta5.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/volta6.png">
-<meta property="og:image" content="https://xyamzw.2937150394.workers.dev/images/volta7.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm17.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm2.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm3.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm4.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm5.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm6.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm7.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm8.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm9.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm11.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm12.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm13.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm14.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm15.png">
+<meta property="og:image" content="https://xyamzw.top/images/nvm16.png">
+<meta property="og:image" content="https://xyamzw.top/images/volta.png">
+<meta property="og:image" content="https://xyamzw.top/images/volta2.png">
+<meta property="og:image" content="https://xyamzw.top/images/volta3.png">
+<meta property="og:image" content="https://xyamzw.top/images/volta4.png">
+<meta property="og:image" content="https://xyamzw.top/images/volta5.png">
+<meta property="og:image" content="https://xyamzw.top/images/volta6.png">
+<meta property="og:image" content="https://xyamzw.top/images/volta7.png">
 <meta property="article:published_time" content="2025-04-26T06:36:08.435Z">
 <meta property="article:modified_time" content="2025-04-26T06:36:08.435Z">
 <meta property="article:author" content="未觉寻星">
 <meta property="article:tag" content="node.js">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://xyamzw.2937150394.workers.dev/images/nvm17.png">
+<meta name="twitter:image" content="https://xyamzw.top/images/nvm17.png">
   
   
     <link rel="alternate" href="/atom.xml" title="未觉寻星's blog" type="application/atom+xml">
@@ -289,10 +289,6 @@
 </div>
 <div class="sidebar-social">
   
-    <div class="icon-email sidebar-social-icon">
-      <a href=mailto:xyamzw2356@gmail.com itemprop="url" target="_blank" aria-label="email" rel="noopener external nofollow noreferrer"></a>
-    </div>
-  
     <div class="icon-github sidebar-social-icon">
       <a href=https://github.com/xyamzw itemprop="url" target="_blank" aria-label="github" rel="noopener external nofollow noreferrer"></a>
     </div>
@@ -507,6 +503,20 @@
   </div>
   <div class="sponsor-tip">请作者喝杯咖啡吧！</div>
   
+    <div class="sponsor-qr">
+      
+        <div class="sponsor-qr-image-wrapper">
+          <img src="/sponsor/zfb.jpg" alt=支付宝 width="200" />
+          <p class="sponsor-qr-name">支付宝</p>
+        </div>
+      
+        <div class="sponsor-qr-image-wrapper">
+          <img src="/sponsor/wx.png" alt=微信 width="200" />
+          <p class="sponsor-qr-name">微信</p>
+        </div>
+      
+    </div>
+  
 </div>
       
       
@@ -519,7 +529,7 @@
         </a>
         <script>
           twikoo.getCommentsCount({
-            envId: 'https://twikoo-commet.vercel.app',
+            envId: 'https://twikoo-comment.vercel.app',
             region: '',
             urls: [
               '/2025/04/26/NodejsTool-Tutorial/'
@@ -687,10 +697,6 @@
   </div>
 </div>
 <div class="sidebar-social">
-  
-    <div class="icon-email sidebar-social-icon">
-      <a href=mailto:xyamzw2356@gmail.com itemprop="url" target="_blank" aria-label="email" rel="noopener external nofollow noreferrer"></a>
-    </div>
   
     <div class="icon-github sidebar-social-icon">
       <a href=https://github.com/xyamzw itemprop="url" target="_blank" aria-label="github" rel="noopener external nofollow noreferrer"></a>
@@ -980,7 +986,7 @@
         window.REIMU_POST = {
           author: "未觉寻星",
           title: "记录这一段时间了解的node.js工具,做一个总结",
-          url: "https://xyamzw.2937150394.workers.dev/2025/04/26/NodejsTool-Tutorial/",
+          url: "https://xyamzw.top/2025/04/26/NodejsTool-Tutorial/",
           excerpt: "",
           description: "",
           stripContent: "Ciallo～(∠・ω &amp;lt; )⌒★众所周知,Node.js 是一个开源的、跨平台的 JavaScript 运行时环境,简单来讲就是一个js运行环境，一个软件，本文将对node.js工具进行相关介绍与使用,帮助你更好的使用node.js 工具概述: nrm nvm volta  工具的安装与使用nrm介绍：nrm 的全称是 npm registry manager ，是一个 npm 的镜像源管理工具 安装前提是你已经安装了node.js,如果没有安装那就看nvm这节,volta这节也行,更傻",
@@ -1133,7 +1139,7 @@
         script.onload = () => {
           if (window.twikoo) {
             twikoo.init({
-              envId: 'https://twikoo-commet.vercel.app',
+              envId: 'https://twikoo-comment.vercel.app',
               el: '.tcomment',
               region: '',
             })

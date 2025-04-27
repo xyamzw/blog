@@ -129,9 +129,6 @@
 .icon-twitter:before {
   content: "\e62a";
 }
-.icon-email:before {
-  content: "\e63c";
-}
 .sidebar-btn-wrapper .sidebar-toc-btn:before {
   font-family: "iconfont";
   content: "\e633";
