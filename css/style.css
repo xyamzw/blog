@@ -3748,6 +3748,96 @@ body .aplayer .aplayer-info .aplayer-controller .aplayer-volume-wrap,
   flex-direction: column;
   align-self: flex-end;
 }
+:root {
+  --color-info-bg: #ecf5fe;
+  --color-info-text: #06c;
+  --color-info-shadow: #f5faff;
+  --color-warning-bg: #fff5e0;
+  --color-warning-text: #ad6405;
+  --color-warning-shadow: #fffcf5;
+  --color-danger-bg: #fff0f0;
+  --color-danger-text: #c5202b;
+  --color-danger-shadow: #fff5f5;
+  --color-tip-bg: #edfdf2;
+  --color-tip-text: #048b4c;
+  --color-tip-shadow: #f5fff8;
+}
+[data-theme="dark"]:root {
+  --color-info-bg: #2d4053;
+  --color-info-text: #75b2f0;
+  --color-info-shadow: #1d2935;
+  --color-warning-bg: #53462d;
+  --color-warning-text: #f0c775;
+  --color-warning-shadow: #352d1d;
+  --color-danger-bg: #532d2d;
+  --color-danger-text: #f07575;
+  --color-danger-shadow: #351d1d;
+  --color-tip-bg: #2d5338;
+  --color-tip-text: #75f09a;
+  --color-tip-shadow: #1d3524;
+}
+.custom-block {
+  margin: 1.8em 0;
+  border-radius: 10px;
+  transition: 0.3s;
+  padding: 1px 10px;
+}
+.custom-block.info {
+  background: var(--color-info-bg);
+  color: var(--color-info-text);
+  border-left: 6px var(--color-info-text) solid;
+  box-shadow: 0 0 5px 2px var(--color-info-shadow);
+}
+.custom-block.info .custom-block-title:before {
+  font-weight: normal;
+  font-family: "iconfont";
+  content: "\e647";
+  margin-right: 0.5em;
+}
+.custom-block.warning {
+  background: var(--color-warning-bg);
+  color: var(--color-warning-text);
+  box-shadow: 0 0 5px 2px var(--color-warning-shadow);
+  border-left: 6px var(--color-warning-text) solid;
+}
+.custom-block.warning .custom-block-title:before {
+  font-weight: normal;
+  font-family: "iconfont";
+  content: "\e646";
+  margin-right: 0.5em;
+}
+.custom-block.danger {
+  background: var(--color-danger-bg);
+  color: var(--color-danger-text);
+  box-shadow: 0 0 5px 2px var(--color-danger-shadow);
+  border-left: 6px var(--color-danger-text) solid;
+}
+.custom-block.danger .custom-block-title:before {
+  font-weight: normal;
+  font-family: "iconfont";
+  content: "\e645";
+  margin-right: 0.5em;
+}
+.custom-block.tip {
+  background: var(--color-tip-bg);
+  color: var(--color-tip-text);
+  box-shadow: 0 0 5px 2px var(--color-tip-shadow);
+  border-left: 6px var(--color-tip-text) solid;
+}
+.custom-block.tip .custom-block-title:before {
+  font-weight: normal;
+  font-family: "iconfont";
+  content: "\e643";
+  margin-right: 0.5em;
+}
+.custom-block p {
+  margin: 0.8em 0;
+}
+.custom-block-title {
+  margin: 0.8em 0 !important;
+  font-size: 1.1em;
+  font-weight: bold;
+}
 .left {
   float: left;
 }
